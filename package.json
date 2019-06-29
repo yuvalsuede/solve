@@ -1,0 +1,29 @@
+{
+  "name": "solve",
+  "version": "1.0.0",
+  "description": "A Javascript library to solve computer science problems ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuvalsuede/solve.git"
+  },
+  "keywords": [
+    "solve",
+    "javascript",
+    "computer",
+    "science",
+    "problems"
+  ],
+  "author": "Yuval Suede <yuvalsuede@gmail.com> (http://yuvalsuede.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuvalsuede/solve/issues"
+  },
+  "homepage": "https://github.com/yuvalsuede/solve#readme",
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  }
+}
