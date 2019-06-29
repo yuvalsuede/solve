@@ -1,5 +1,5 @@
 {
-  "name": "solve",
+  "name": "solve.js",
   "version": "1.0.0",
   "description": "A Javascript library to solve computer science problems ",
   "main": "src/index.js",
