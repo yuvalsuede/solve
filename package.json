@@ -1,14 +1,15 @@
 {
   "name": "solve.js",
-  "version": "1.0.0-beta.0",
+  "version": "0.0.0-development",
   "description": "A Javascript library to solve computer science problems ",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuvalsuede/solve.git"
+    "url": "https://github.com/yuvalsuede/solve.git"
   },
   "keywords": [
     "solve",
@@ -25,5 +26,10 @@
   "homepage": "https://github.com/yuvalsuede/solve#readme",
   "dependencies": {
     "unique-random-array": "2.0.0"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "6.1.4",
+    "semantic-release": "^15.13.18"
   }
 }
